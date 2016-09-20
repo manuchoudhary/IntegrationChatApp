@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_form">
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserID"
+        android:hint="Enter User ID"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmailID"
+        android:hint="Enter Email ID"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNumber"
+        android:hint="Enter Number"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Enter Password"
+        android:password="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDisplayName"
+        android:hint="Enter Display Name"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
